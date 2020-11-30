@@ -18,6 +18,7 @@ namespace AUTOAIBE2.Test
         public static AutoaibePage _page;
         public static AutoaibeCarDetailPage _carDetails;
         public static DiscBrakePage _discPage;
+        public static AutoaibeCheckOutPage _checkOutPage;
 
 
 
@@ -29,6 +30,7 @@ namespace AUTOAIBE2.Test
             _page = new AutoaibePage(driver);
             _discPage = new DiscBrakePage(driver);
             _carDetails = new AutoaibeCarDetailPage(driver);
+            _checkOutPage = new AutoaibeCheckOutPage(driver);
         }
 
         [TearDown]

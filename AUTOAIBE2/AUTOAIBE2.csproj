@@ -59,6 +59,7 @@
     <Compile Include="Driver\Browsers.cs" />
     <Compile Include="Driver\CustomDrivers.cs" />
     <Compile Include="Page\AutoaibeCarDetailPage.cs" />
+    <Compile Include="Page\AutoaibeCheckOutPage.cs" />
     <Compile Include="Page\AutoaibePage.cs" />
     <Compile Include="Page\BasePage.cs" />
     <Compile Include="Page\DiscBrakePage.cs" />
